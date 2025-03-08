@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <title>youtube.com clone</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section"><img class="hamburger" src="icons/hamburger-menu.svg" ><img class="ytlogo" src="icons/youtube-logo.svg" ></div>
+        <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
+                 <!--  put position absolute insite position relative-->
+            <button class="sbut"><img class="sicon" src="icons/search.svg" ><div class="tool-tip">Search</div></button>
+            
+            <button class="vsbut"><img class="vsearch" src="icons/voice-search-icon.svg" ><div class="tool-tip">Search with your voice</div></button>
+        </div>
+        <div class="right-section">
+            <div class="upload-container">
+                <img class="upload" src="icons/upload.svg" ><div class="tool-tip">Create</div>
+            </div>
+            <div class="yt-app-container">
+                <img class="ytapp" src="icons/youtube-apps.svg" ><div class="tool-tip">YouTube apps</div>
+            </div>
+            <div class="notification-container">
+                <img class="noti" src="icons/notifications.svg" >
+                <div class="notifications-count">3</div>
+                <div class="tool-tip">Notifications</div>
+            </div>
+            <img class="channel-icon" src="icons/profile.jpg" >
+        </div>
+        
+    </header>
+
+    <nav class="sbar">
+        <div class="sbar-link"><img src="icons/home.svg"><div>Home</div></div>
+        <div class="sbar-link"><img src="icons/explore.svg"><div>Explore</div></div>
+        <div class="sbar-link"><img src="icons/subscriptions.svg"><div>Subscriptions</div></div>
+        <div class="sbar-link"><img src="icons/originals.svg"><div>Originals</div></div>
+        <div class="sbar-link"><img src="icons/youtube-music.svg"><div>Youtube Music</div></div>
+        <div class="sbar-link"><img src="icons/library.svg"><div>Library</div></div>
+    </nav>
+<main>
+    <section class="video-grid">
+        <div class="video-preview">
+            <div class="thumb">
+                <a href="https://www.youtube.com/watch?v=96vWCTYhMZM">
+                <img class="thumbnail" src="thumbnail/paint.avif" ></a>
+                <div class="video-time">11:51</div>
+            </div>
+            <div class="video-infogrid">
+                 <div class="channel-pic">
+                    <a href="https://www.youtube.com/@jayleepainting">
+                    <img class="profile-picture" src="channel-pic/paint.jpg" ></a>
+                 </div>
+                 <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=96vWCTYhMZM">Iron scrubber painting technique / Painting deep in the woods / Easy creative art</a></p>
+                      <p class="video-author">Jay Lee Painting</p>   
+                      <p class="video-stats">1.8M views &#183; 1 month ago</p>
+                </div>
+            </div>
+        </div>
+ 
+     <div class="video-preview">
+         <div class="thumb">
+            <a href="https://www.youtube.com/watch?v=Xf0yP-kNyXQ">
+            <img class="thumbnail" src="thumbnail/machine.avif" ></a>
+            <div class="video-time">5:40</div></div>
+         <div class="video-infogrid">
+              <div class="channel-pic">
+                <a href="https://www.youtube.com/@LucasDynamics"><img class="profile-picture" src="channel-pic/machine.jpg" ></a></div>
+              <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=Xf0yP-kNyXQ">World's fastest 70 CPS Lego Technic AUTOCLICKER!</a></p>
+                   <p class="video-author">Lucas-Dynamics</p>   
+                   <p class="video-stats">15M views &#183; 11 months ago</p></div>
+         </div>
+  </div>
+<!--third-->
+  <div class="video-preview">
+    <div class="thumb">
+        <a href="https://www.youtube.com/watch?v=KA-Hm9sJGa8">
+        <img class="thumbnail" src="thumbnail/farm.avif" ></a>
+        <div class="video-time">21:51</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+            <a href="https://www.youtube.com/@purefarm863"><img class="profile-picture" src="channel-pic/farm.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"><a class="v-link" href="https://www.youtube.com/watch?v=KA-Hm9sJGa8">How Lay's Chips are made in a food factory with Modern food technology</a></p>
+              <p class="video-author">Pure Farm</p>   
+              <p class="video-stats">1.2M views &#183; 4 months ago</p></div>
+    </div>
+</div>
+<!--4 -->
+<div class="video-preview">
+ <div class="thumb">
+    <a href="https://www.youtube.com/watch?v=0zbPeoZzcPg">
+    <img class="thumbnail" src="thumbnail/tv.avif" ></a><div class="video-time">24:06</div></div>
+ <div class="video-infogrid">
+      <div class="channel-pic">
+        <a href="https://www.youtube.com/@LearnEnglishWithTVSeries"><img class="profile-picture" src="channel-pic/tv.jpg" ></a></div>
+      <div class="video-lines"><p class="video-title"><a class="v-link" href="https://www.youtube.com/watch?v=0zbPeoZzcPg">Learn English with UP — Disney Movie</a></p>
+           <p class="video-author">Learn English With TV Series</p>   
+           <p class="video-stats">132K views &#183; 7 days ago</p></div>
+ </div>
+</div>
+
+<!-- 2 first-->
+<div class="video-preview">
+    <div class="thumb">
+        <a href="https://www.youtube.com/watch?v=DBKlMBU3Qcc">
+        <img class="thumbnail" src="thumbnail/food.avif" ></a><div class="video-time">5:51</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+            <a href="https://www.youtube.com/@Eat-SD">
+            <img class="profile-picture" src="channel-pic/food.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"><a class="v-link" href="https://www.youtube.com/watch?v=DBKlMBU3Qcc">One Potato & One Egg! Quick Recipe Perfect For Breakfast</a></p>
+              <p class="video-author">Eat</p>   
+              <p class="video-stats">6.2M views &#183; 1 year ago</p></div>
+    </div>
+</div>
+
+<!-- 2 second-->
+<div class="video-preview">
+ <div class="thumb">
+    <a href="https://www.youtube.com/watch?v=oaJIkGhAf7U">
+    <img class="thumbnail" src="thumbnail/bbc.avif" ></a><div class="video-time">19:19</div></div>
+ <div class="video-infogrid">
+      <div class="channel-pic">
+        <a href="https://www.youtube.com/@bbcearth">
+        <img class="profile-picture" src="channel-pic/bbc.jpg" ></a></div>
+      <div class="video-lines"><p class="video-title"><a class="v-link" href="https://www.youtube.com/watch?v=oaJIkGhAf7U">Discovering the Strange and Unusual Creatures of the Deep Ocean | BBC Earth</a></p>
+           <p class="video-author">BBC Earth</p>   
+           <p class="video-stats">1.5M views &#183; 11 days ago</p></div>
+ </div>
+</div>
+
+<!--2 third-->
+<div class="video-preview">
+    <div class="thumb">
+        <a href="https://www.youtube.com/watch?v=GNDO2G6YySA">
+        <img class="thumbnail" src="thumbnail/fiction.avif" ></a><div class="video-time">4:38</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+            <a href="https://www.youtube.com/@thefictionist21">
+            <img class="profile-picture" src="channel-pic/fiction.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"><a class="v-link" href="https://www.youtube.com/watch?v=GNDO2G6YySA">Empty Your Mind - a powerful zen story for your life.</a></p>
+              <p class="video-author">The Fictionist</p>   
+              <p class="video-stats">4.1M views &#183; 1 year ago</p></div>
+    </div>
+   </div>
+
+   
+   <!-- 2 four-->
+<div class="video-preview">
+    <div class="thumb">
+        <a href="https://www.youtube.com/watch?v=AIlOpMfl6Wg">
+        <img class="thumbnail" src="thumbnail/planet.avif" ></a><div class="video-time">25:54</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+            <a href="https://www.youtube.com/@WhatIfScienceShow">
+            <img class="profile-picture" src="channel-pic/planet.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"><a class="v-link" href="https://www.youtube.com/watch?v=AIlOpMfl6Wg">What Would Dying on Every Planet Be Like?</a></p>
+              <p class="video-author">What If</p>   
+              <p class="video-stats">10M views &#183; 2 months ago</p></div>
+    </div>
+   </div>
+
+   
+   <!--3 1st-->
+   <div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=GTZue7BrcUA">
+       <img class="thumbnail" src="thumbnail/home.avif" ></a>
+       <div class="video-time">4:30</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@igloohomes"><img class="profile-picture" src="channel-pic/home.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=GTZue7BrcUA">Two Storey House | Tiny Home ( 3X6 Meters )</a></p>
+              <p class="video-author">igloo homes</p>   
+              <p class="video-stats">6.3M views &#183; 5 months ago</p></div>
+    </div>
+</div>
+
+   <!--3 2nd-->
+<div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=tBdwetBS1DA">
+       <img class="thumbnail" src="thumbnail/duck.avif" ></a>
+       <div class="video-time">17:44</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@SoloSoloTravel"><img class="profile-picture" src="channel-pic/duck.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=tBdwetBS1DA">Riding on Japan’s First Class Overnight Train | West Express Ginga Premier</a></p>
+              <p class="video-author">Solo Solo Travel</p>   
+              <p class="video-stats">32M views &#183; 2 years ago</p></div>
+    </div>
+</div>
+
+   
+<div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=Ewyos-rZCOw">
+       <img class="thumbnail" src="thumbnail/dev.avif" ></a>
+       <div class="video-time">5:33</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@AnnorCode"><img class="profile-picture" src="channel-pic/dev.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=Ewyos-rZCOw">A day In The Life Of A Web Developer</a></p>
+              <p class="video-author">Annor Code</p>   
+              <p class="video-stats">21K views &#183; 1 year ago</p></div>
+    </div>
+</div>
+
+<div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=Yd7vDterctQ&t=6s">
+       <img class="thumbnail" src="thumbnail/3am.avif" ></a>
+       <div class="video-time">55:32</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@CosmicHippoSounds"><img class="profile-picture" src="channel-pic/3am.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=Yd7vDterctQ&t=6s">3 A.M Coding Session - Chillstep Beats to Keep You Going</a></p>
+              <p class="video-author">Cosmic Hippo</p>   
+              <p class="video-stats">791K views &#183; 3 months ago</p></div>
+    </div>
+</div>
+
+   
+   
+<div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=YXErzl-cIe8">
+       <img class="thumbnail" src="thumbnail/eye.avif" ></a>
+       <div class="video-time">6:17</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@MichaelRChuaMD"><img class="profile-picture" src="channel-pic/eye.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=YXErzl-cIe8">Home Eye Test! If you fail, see an EYE DOCTOR!</a></p>
+              <p class="video-author">Michael Chua, MD</p>   
+              <p class="video-stats">5.2M views &#183; 1 months ago</p></div>
+    </div>
+</div>
+   
+   
+<div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=SPKCATQ--KY">
+       <img class="thumbnail" src="thumbnail/dsa.avif" ></a>
+       <div class="video-time">3:43</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@nesoacademy"><img class="profile-picture" src="channel-pic/dsa.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=SPKCATQ--KY">Doubly Linked List (Insertion at the Beginning)</a></p>
+              <p class="video-author">Neso Academy</p>   
+              <p class="video-stats">214K views &#183; 4 years ago</p></div>
+    </div>
+</div>
+
+   
+   
+<div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=FxQdEl4EKk4">
+       <img class="thumbnail" src="thumbnail/yog.avif" ></a>
+       <div class="video-time">2:55</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@DaisyCreekFarms"><img class="profile-picture" src="channel-pic/yog.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=FxQdEl4EKk4">Stop Buying Yogurt! Make Your Own Using Two Ingredients</a></p>
+              <p class="video-author">Daisy Creek Farms with Jag Singh</p>   
+              <p class="video-stats">1.7M views &#183; 3 years ago</p></div>
+    </div>
+</div>
+ 
+   
+<div class="video-preview">
+    <div class="thumb">
+       <a href="https://www.youtube.com/watch?v=YllkyKiQMS8">
+       <img class="thumbnail" src="thumbnail/math.avif" ></a>
+       <div class="video-time">10:29</div></div>
+    <div class="video-infogrid">
+         <div class="channel-pic">
+           <a href="https://www.youtube.com/@brain_station_videos"><img class="profile-picture" src="channel-pic/math.jpg" ></a></div>
+         <div class="video-lines"><p class="video-title"> <a class="v-link" href="https://www.youtube.com/watch?v=YllkyKiQMS8">How to Calculate Faster than a Calculator - Mental Math #2</a></p>
+              <p class="video-author">Brain Station</p>   
+              <p class="video-stats">205K views &#183; 2 months ago</p></div>
+    </div>
+</div>
+   
+</section>
+</main>
+   
+    
+</body>
+</html>
