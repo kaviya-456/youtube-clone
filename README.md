@@ -24,7 +24,7 @@ This is a simple YouTube Clone project built using HTML and CSS. It replicates t
 3. Open `index.html` in your browser to view the project.
 
 ## Screenshots
-![Project Screenshot](youtube-clone-img.png)
+![Project Screenshot](youtube-clone-image.png)
 
 ## Future Enhancements
 
